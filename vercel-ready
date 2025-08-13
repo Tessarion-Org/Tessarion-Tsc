@@ -1,0 +1,3 @@
+# Build and deploy locally
+npm run build
+npm run start
