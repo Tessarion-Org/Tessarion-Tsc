@@ -1,3 +1,5 @@
+![Tessarion-Tsc Banner](./assets/tessarion-tsc-banner.png)
+
 # Tessarion-Tsc
 
 **Secure. Scalable. Intelligent Investments.**  
