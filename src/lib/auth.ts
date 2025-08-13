@@ -48,3 +48,5 @@ export const authOptions: NextAuthOptions = {
   },
   secret: process.env.AUTH_SECRET || 'dev-secret'
 };
+
+> Note: Add optional env ADMIN_EMAILS="admin1@domain.com,admin2@domain.com" for automatic admin role.
