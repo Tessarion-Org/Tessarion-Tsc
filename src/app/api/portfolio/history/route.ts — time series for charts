@@ -1,0 +1,14 @@
+import { NextResponse } from 'next/server';
+
+export async function GET() {
+  // 30 days of mock data
+  const today = new Date();
+  const points = Array.from({ length: 30 }).map((_, i) => {
+    const d = new Date(today);
+    d.setDate(d.getDate() - (29 - i));
+    const base = 70000; // base portfolio value
+    const noise = Math.sin(i / 3) * 1200 + (Math.random() - 0.5) * 800;
+    return { date: d.toISOString().slice(0, 10), value: Math.round(base + noise) };
+  });
+  return NextResponse.json({ points });
+}
