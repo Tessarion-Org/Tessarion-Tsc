@@ -52,3 +52,58 @@ cp .env.example .env.local
 
 # 5. Run the development server
 npm run dev
+
+
+---
+
+🔑 Environment Variables
+
+Create a .env.local file in the project root:
+
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=your-secret-key
+
+GOOGLE_CLIENT_ID=your-google-client-id
+GOOGLE_CLIENT_SECRET=your-google-client-secret
+
+GITHUB_ID=your-github-client-id
+GITHUB_SECRET=your-github-client-secret
+
+
+---
+
+🚀 Deployment
+
+This project is Vercel-ready.
+
+# Build and deploy locally
+npm run build
+npm run start
+
+Or push to GitHub and connect the repo to Vercel.
+
+
+---
+
+📸 Screenshots
+
+(Add your screenshots here)
+
+
+---
+
+🤝 Contributing
+
+We welcome contributions! Please fork this repo, make your changes, and submit a pull request.
+
+
+---
+
+📜 License
+
+MIT License © 2025 Tessarion-Tsc
+
+---
+
+If you want, I can also **add a README banner image** with your Tessarion-Tsc branding so it looks premium when people visit your repo.  
+Do you want me to design and include that banner?
